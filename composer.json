@@ -1,0 +1,27 @@
+{
+  "name": "tonic-crm/jwt-api-credential",
+  "description": "JWT Api Credential check for Tonic CRM PHP projects",
+  "homepage": "http://mytonic.com/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Zakir Hyder",
+      "email": "zakir@telenorhealth.com",
+      "homepage": "https://github.com/zakir-hyder"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "doctrine/dbal": "~2.5",
+    "firebase/php-jwt": "^3.0",
+    "predis/predis": "~1.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+      "TonicCrm\\Tools\\JwtApiCredential\\": "src"
+    }
+  }
+}

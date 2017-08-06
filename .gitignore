@@ -1,0 +1,7 @@
+/bin/
+/composer.phar
+/vendor/
+/web/bundles/
+/tmp/*
+.idea/*
+composer.lock
